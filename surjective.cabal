@@ -1,6 +1,7 @@
 name:                surjective
 version:             0.1.0.0
-synopsis:            Check that your parsers cover all the cases.
+synopsis:            An output coverage checker
+description:         Check that your parsers cover all the cases.
 homepage:            https://github.com/gelisam/surjective
 license:             PublicDomain
 author:              Samuel Gélineau
