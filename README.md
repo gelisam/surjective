@@ -1,5 +1,7 @@
 # Surjective
 
+[![Build Status](https://travis-ci.org/gelisam/surjective.svg?branch=master)](https://travis-ci.org/gelisam/surjective)
+
 Here is a parsing function which is missing a case:
 
     parseBool :: String -> Maybe Bool
