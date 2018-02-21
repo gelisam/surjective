@@ -9,6 +9,7 @@ maintainer:          gelisam+github@gmail.com
 category:            Language
 build-type:          Simple
 cabal-version:       >=1.10
+extra-source-files:  README.md
 
 library
   exposed-modules:     Surjective
