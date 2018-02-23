@@ -195,4 +195,4 @@ surjective qBody = do
       coveredMatch coveredPattern = Match coveredPattern (NormalB rhs) []
       caseExp :: Exp
       caseExp = CaseE scrutinee (map coveredMatch coveredPatterns)
-  TExp <$> [|let _ = $(pure caseExp) in $(pure body'')|]
+  TExp <$> [|let _ = $(pure caseExp) :: () in $(pure body'')|]
