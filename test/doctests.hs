@@ -21,4 +21,4 @@ import Test.DocTest
 
 
 main :: IO ()
-main = doctest ["test/doctests.hs"]
+main = doctest ["src/Surjective.hs", "test/doctests.hs"]
